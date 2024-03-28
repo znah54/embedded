@@ -11,3 +11,25 @@ Iot 개발자 임베디드시스템 학습 리포지토리
 
 ## 3일차
     - 연결리스트 작업(pre,rear 노드 추가)
+
+## 4일차
+    ```
+    void rear_addNode(headNode* phead, int data)
+{
+node * tnode = (node*)malloc(sizeof(node));
+if(newNode != NULL){
+	tnode ->data = data;
+	tnode ->next = NULL;
+	if(pnode -> head == NULL) phead -> head = tnode;
+	else{
+	node* curr = phead->head;
+	while(curr->next != NULL){
+		curr = curr -> next;
+		}
+		curr -> next = tnode;
+		}
+	}
+}
+    ```
+
+    

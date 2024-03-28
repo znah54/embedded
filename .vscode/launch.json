@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Sources/embedded/day01",
-      "program": "c:/Sources/embedded/day01/build/Debug/outDebug",
+      "cwd": "c:/Sources/embedded/day04",
+      "program": "c:/Sources/embedded/day04/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
